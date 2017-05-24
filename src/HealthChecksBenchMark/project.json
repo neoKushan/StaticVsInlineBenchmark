@@ -1,19 +1,21 @@
-﻿{
+{
   "version": "1.0.0-*",
   "buildOptions": {
     "emitEntryPoint": true
   },
 
   "dependencies": {
-    "Microsoft.NETCore.App": {
-      "type": "platform",
-      "version": "1.0.1"
-    }
+    "BenchmarkDotNet": "0.10.6"
   },
 
   "frameworks": {
-    "netcoreapp1.0": {
+    "netcoreapp1.1": {
       "imports": "dnxcore50"
     }
+  },
+
+  "runtimes": {
+    "win10-x64": {},
+    "win7-x64": {}
   }
 }
